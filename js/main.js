@@ -151,9 +151,13 @@ buttonAdd.addEventListener("click", handleClickAddButton);
 
 
 //ADAKITTEN EJERC. PUNTO 10
-function filterKitten(ev) {
+function filterKitten(event) {
     //Modifica el código:
+
     //Haz un filter sobre el listado de gatitos
+    const kittenDataList = [kittenData_1, kittenData_2, kittenData_3];
+    const descList = kittenDataList.filter ((kitten) => kitten.length > 3)
+    console.log (descList); 
     //Vuelve a pintar el listado de gatitos filtrados en el HTML.
   }
 
