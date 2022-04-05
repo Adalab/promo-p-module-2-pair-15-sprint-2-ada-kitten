@@ -127,7 +127,8 @@ buttonCancelForm.addEventListener("click", cancelNewKitten);
 
 
 //INICIO EJERCICIOS PAIR-15
-const buttonAdd = document.querySelector('.js-btn-add');
+//ADAKITTEN EJERC. PUNTO 9
+const btnAdd = document.querySelector('.js-btn-add');
 
 function handleClickAddButton(event){
   event.preventDefault();
@@ -142,11 +143,18 @@ function handleClickAddButton(event){
 
   //renderKittenList pinta en el html
   renderKittenList(kittenDataList);
+
+  labelMesageError.innerHTML = 'Mola! Un nuevo gatito en Adalab!';
 }
 
 buttonAdd.addEventListener("click", handleClickAddButton);
 
 
-
+//ADAKITTEN EJERC. PUNTO 10
+function filterKitten(ev) {
+    //Modifica el código:
+    //Haz un filter sobre el listado de gatitos
+    //Vuelve a pintar el listado de gatitos filtrados en el HTML.
+  }
 
 
